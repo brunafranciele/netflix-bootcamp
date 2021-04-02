@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+:root{
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--preto);
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  color: var(--vermelho);
+  margin-left: 5px;
+}
+
+.teste{
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
+}
+
+.teste:hover{
+  color: #fff;
+}
+
+.main-container {
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('../images/tbbt.jpg');
+}
+
+/* filme principal */
+
+.filme-principal {
+  font-size:16px;
+
+  height: 65vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.descricao {
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.titulo {
+  margin-top: 30%;
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+  background-color: rgba(0,0,0,.50);
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: .5s ease all;
+}
+
+.botao:hover {
+  background-color: #fff;
+  color: #141414;
+}
+
+.botao i {
+  margin-right: 8px;
+}
+
+.container-filme {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+  padding-bottom: 5%;
+  width: 80%;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrossel-filmes {
+  margin-top: 1%;
+}
+
+.logo-netflix {
+  width: 9%;
+  padding-left: 2%;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.desc-carrossel {
+  padding-bottom: 1%;
+  padding-left: 1%;
+}
